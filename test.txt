@@ -9,3 +9,5 @@ git commit
 git merge
 
 コンフリクト
+
+pullrequest
