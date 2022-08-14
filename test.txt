@@ -8,4 +8,4 @@ git commit
 
 git merge
 
-conflict
+コンフリクト
