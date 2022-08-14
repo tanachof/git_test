@@ -7,3 +7,5 @@
 git commit 
 
 git merge
+
+conflict
