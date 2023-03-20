@@ -17,12 +17,4 @@ void print_fizzbuzz(int data){
     }else if(data % 5 == 0) {
         std::cout << "Buzz" << std::endl;
     }
-
-    if (x % 15 == 0) {
-        std::cout << "FizzBuss" << std::endl;
-    }else if(x % 3 == 0) {
-        std::cout << "Fizz" << std::endl;
-    }else if(x % 5 == 0) {
-        std::cout << "Buzz" << std::endl;
-    }
 }

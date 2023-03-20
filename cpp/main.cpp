@@ -14,6 +14,8 @@ int main(int argc, char const *argv[]){
 
     int data;
 
+    std::cout << "start" << std::endl;
+
     data = atoi(argv[1]);
 
     print_fizzbuzz(data);
