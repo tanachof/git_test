@@ -5,6 +5,7 @@ int get_value(void);
 
 void print_fizzbuzz(int data);
 
+
 template <typename T, typename U>
 auto Sum(T a, U b) {
     return a + b;

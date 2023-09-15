@@ -1,24 +1,37 @@
 #include <stdio.h>
 #include <string>
-#include <fstream>
-#include <sstream>
 #include <iostream>
-#include <vector> 
-#include <algorithm>
+#include <vector>
+#include <cassert> 
 
-#include "call.hpp"
+#include "main_process.hpp"
+#include "share.hpp"
 
-
-
+ int share_val = 255;
 int main(int argc, char const *argv[]){
 
+   
+   
+    assert(argc == 2);
+    
+    std::cout << argc << std::endl;
+
     int data;
+    data = atoi(argv[1]);
+
+    std::string s = "t";
 
     std::cout << "start" << std::endl;
 
-    data = atoi(argv[1]);
+    main_process(data);
 
-    print_fizzbuzz(data);
+    read_data();
+
+    std::cout << "end" << std::endl;
+    std::cout << share_val << std::endl;
+    
+
+   
 
     
     return 0;
